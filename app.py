@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 
 # Enable CORS for the app
-CORS(app)  # This will allow all origins. You can customize it as needed.
+CORS(app, resources={r"/*": {"origins": ["https://heart-failure-prediction-final.vercel.app"]}}, supports_credentials=True)
 
 # Load model and scaler
 model = load_model("heart_disease_model.h5")
