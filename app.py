@@ -8,7 +8,7 @@ from tensorflow import lite  # Much lighter than full TensorFlow
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {
-    "origins": ["https://heart-failure-prediction-final.vercel.app"]
+    "origins": ["https://heart-failure-prediction-final.vercel.app","https://heart-failure.toshankanwar.website"]
 }})
 
 # Memory tracking
