@@ -1,7 +1,7 @@
 Flask==2.3.3
 Flask-CORS==4.0.0
 gunicorn==21.2.0
-numpy==1.20.3
+numpy==1.23.5
 joblib==1.3.2
-tensorflow-lite==2.14.0  # Updated version
+tensorflow-cpu==2.13.0
 psutil==5.9.5
