@@ -38,7 +38,7 @@ except Exception as e:
 
 # Mappings
 sex_map = {'M': 1, 'F': 0}
-chest_pain_map = {'ATA': 0, 'NAP': 1, 'ASY': 2, 'TA': 3}
+chest_pain_map = {'ATA': 1, 'NAP': 2, 'ASY': 0, 'TA': 3}
 resting_ecg_map = {'Normal': 1, 'ST': 2, 'LVH': 0}
 exercise_angina_map = {'N': 0, 'Y': 1}
 st_slope_map = {'Up': 2, 'Flat': 1, 'Down': 0}
